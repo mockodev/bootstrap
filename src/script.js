@@ -1,7 +1,7 @@
 
 
 function getIPFromAmazon() {
-    fetch("https://checkip.amazonaws.com/").then(res => res.text()).then(data => {return data});
+    fetch("https://cors.io/?https://checkip.amazonaws.com/").then(res => res.text()).then(data => {return data});
   }
 
   $(function () {
