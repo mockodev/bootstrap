@@ -7,6 +7,14 @@ function getIPFromAmazon() {
     fetch("https://www.cloudflare.com/cdn-cgi/trace/", {mode: "no-cors"}).then(res => res.text()).then(data => {return data});
   }
 
+  $.get('https://www.cloudflare.com/cdn-cgi/trace', function(data) {
+    return data;
+})
+
+
   $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   })
+
+
+  
