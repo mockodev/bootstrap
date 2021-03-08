@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- Head -->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -18,7 +19,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"
     />
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./src/style.css" />
     <link rel="stylesheet" href="./src/header.css" />
     <link rel="stylesheet" href="./src/main.css" />
@@ -44,7 +46,7 @@
 
     </header>
 
-    <!-- select type of meal -->
+    <!-- Joshs type of meal section-->
     <section>
       <div class="main-select">
         <article>Which dine are you preparing for?</article>
@@ -57,18 +59,18 @@
       </div>
     </section>
 
-    <!-- main section -->
+    <!-- Daniels main section -->
     <main class="main-container">
-    <div class="row row-cols-1 row-cols-md-2">
+      <h2>Meal of the day</h2>
+     <div class="row row-cols-1 row-cols-md-2">
       <div class="col">
+        <h3>Ham and eggs</h3>
         <div class="card shadow-sm">
-          <img class="bd-placeholder-img card-img-top" src="./src/img/main/breakfast_landing.jpg" onclick="window.location.href='recipe.html'" width="100%" height="225"/>
+          <img class="bd-placeholder-img card-img-top"  src="./src/img/main/ham_and_eggs_landing.jpg" onclick="window.location.href='recipe.html'" />
 
-          <div class="card-body">
-            <p class="card-text">Lunch, an abbreviation for luncheon, is a meal eaten around midday.
-               During the 20th century, the meaning gradually narrowed to a meal eaten midday.
-                Lunch is commonly the second meal of the day, after breakfast.
-                The meal varies in size depending on the culture, and significant variations exist in different areas of the world.</p>
+           <div class="card-body">
+            <p class="card-text">Here’s a one-pan recipe for simple and delicious ham and eggs.
+               What sets this apart from other recipes is you’ll cook the ham and the eggs together at the same time</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
                 <button type="button" class="btn btn-sm btn-outline-primary" onclick="window.location.href='recipe.html'">View recipe</button>
@@ -79,55 +81,66 @@
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card shadow-sm">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+        <!-- end of card -->
 
-          <div class="card-body">
-            <p class="card-text">Appetizer text....mjam mjam.</p>
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-primary">View recipe</button>
-                <button type="button" class="btn btn-sm btn-outline-secondary">Edit recipe</button>
+        <div class="col">
+          <h3>Fish and Chips</h3>
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top"  src="./src/img/main/fish_and_chips_landing.jpg" onclick="window.location.href='recipe.html'" />
+  
+             <div class="card-body">
+              <p class="card-text">Fish that is deep-fried in a crispy batter served with fat golden chips (French fries)
+                 on the side is still one of Britain and Ireland's favorite meals. 
+                  </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-primary" onclick="window.location.href='recipe.html'">View recipe</button>
+                  <button type="button" class="btn btn-sm btn-outline-primary" onclick="window.location.href='recipe.html'">Edit recipe</button>
+                </div>
+                <small class="text-muted">created: 03-12-2020</small>
               </div>
-              <small class="text-muted">created: 03-12-2020</small>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card shadow-sm">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
 
-          <div class="card-body">
-            <p class="card-text">Appetizer text....mjam mjam.</p>
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-primary">View recipe</button>
-                <button type="button" class="btn btn-sm btn-outline-secondary">Edit recipe</button>
+        <div class="col">
+          <h3>Mixed salad</h3>
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top"  src="./src/img/main/mixed_salad_landing.jpg" onclick="window.location.href='recipe.html'" />
+  
+             <div class="card-body">
+              <p class="card-text">Here's a light salad with big flavor that pairs perfectly with steak or seafood.
+                  </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-primary" onclick="window.location.href='recipe.html'">View recipe</button>
+                  <button type="button" class="btn btn-sm btn-outline-primary" onclick="window.location.href='recipe.html'">Edit recipe</button>
+                </div>
+                <small class="text-muted">created: 03-12-2020</small>
               </div>
-              <small class="text-muted">created: 03-12-2020</small>
             </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card shadow-sm">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
 
-          <div class="card-body">
-            <p class="card-text">Appetizer text....mjam mjam.</p>
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-primary">View recipe</button>
-                <button type="button" class="btn btn-sm btn-outline-secondary">Edit recipe</button>
+        <div class="col">
+          <h3>Black forest cherry cake</h3>
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top"  src="./src/img/main/black_forrest_cherry_cake_landing.jpg" onclick="window.location.href='recipe.html'" />
+  
+             <div class="card-body">
+              <p class="card-text">Bake this delicious black forest cherry cake garnished with maraschino or candied cherry and chocolate curls – dessert ready in 55 minutes.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-primary" onclick="window.location.href='recipe.html'">View recipe</button>
+                  <button type="button" class="btn btn-sm btn-outline-primary" onclick="window.location.href='recipe.html'">Edit recipe</button>
+                </div>
+                <small class="text-muted">created: 03-12-2020</small>
               </div>
-              <small class="text-muted">created: 03-12-2020</small>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+
+      </div>   
     </main>
 
     <!-- footer section -->
