@@ -1,18 +1,16 @@
 
-packages/frameworks used on https://metagrammar.github.io/modestShirley/index.html
 
-popper.js  https://popper.js.org/
+keep in mind....
+
 (Icons) https://material.io/resources/icons/?style=sharp 
-jquery (for DOM Manipulation, bootstrap needs it)
 fontawesome  https://fontawesome.com/
 aos (unpkg.com)  https://www.npmjs.com/package/aos/v/3.0.0-beta.6
-https://codeseven.github.io/toastr/  Toast notifications
-https://codeseven.github.io/toastr/demo.html Test a Toast
 
 
 Installed / CDN
 
 jquery
 bootstrap with popper
+bootstrap icons
 toastr
 
