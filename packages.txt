@@ -14,3 +14,5 @@ bootstrap with popper
 bootstrap icons
 toastr
 
+https://fonts.google.com/
+
