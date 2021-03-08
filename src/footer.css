@@ -1,0 +1,73 @@
+.footer-str {
+    border: 1px solid red;
+    text-align: center;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.footer-str a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-social {
+    width: 400px;
+}
+
+.footer-social ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
+
+.footer-social-fb {
+    background-image: url();
+    background-size: cover;
+}
+
+.footer-social-yt {
+    background-image: url();
+    background-size: cover;
+}
+
+.footer-social-in {
+    background-image: url();
+    background-size: cover;
+}
+
+.footer-about {
+    width: 400px;
+}
+
+.footer-about-title {
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 1px;
+}
+
+.footer-about ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
+
+.footer-about-daniel {
+    background-image: url(https://avatars.githubusercontent.com/u/3473243?s=460&v=4);
+    background-size: cover;
+}
+
+.footer-about-adam {
+    background-image: url(https://avatars.githubusercontent.com/u/78554322?s=460&u=1887ff53bf8577cf495f59839975d81cc52c1da4&v=4);
+    background-size: cover;
+
+}
+
+.footer-about-josh {
+    background-image: url(https://avatars.githubusercontent.com/u/75668069?s=460&u=4dbfc57f140d0626fe06f44462ae2e46c14782a1&v=4);
+    background-size: cover;
+
+}
+

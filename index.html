@@ -43,20 +43,37 @@
 
     <!-- Adams header section -->
     <header>
+  <div class="topnav">
+      <a class="active" href="index.html">Maj's Cookbook</a>
 
+      <input type="text" onkeypress='checkEnterClick(event)' placeholder="Search for Recipe...">
+      <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">close window</span>
+        <div class="overlay-content">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search for Recipe again..." name="search">
+            <a>here comes a list of the searchresult of "Muffin" for example</a>
+          </form>
+        </div>
+      </div> 
+    </div>
     </header>
 
+
     <!-- Joshs type of meal section-->
+
+    <!-- when hover, transparency changed, larger -->
+
     <section>
-      <div class="main-select">
+      <div class="main-select-article">
         <article>Which dine are you preparing for?</article>
-        <div>
-          <button class="main-select-button main-select-button-breakfast">Breakfast</button>
-          <button class="main-select-button main-select-button-lunch">Lunch</button>
-          <button class="main-select-button main-select-button-dinner">Dinner</button>
-          <button class="main-select-button main-select-button-dessert">Dessert</button>
-        </div>        
       </div>
+        <div class="row main-select-str">
+          <div id="main-select" class="col main-select-bf"><a href="/breakfast.html">Breakfast</a></div>
+          <div id="main-select" class="col main-select-lc"><a href="/lunch.html">Lunch</a></div>
+          <div id="main-select" class="col main-select-dn"><a href="/dinner.html">Dinner</a></div>
+          <div id="main-select" class="col main-select-ds"><a href="/dessert.html">Dessert</a></div>
+        </div>
     </section>
 
     <!-- Daniels main section -->
