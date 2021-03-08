@@ -7,7 +7,7 @@ toastr.options = {
   "progressBar": true,
   "positionClass": "toast-top-right",
   "preventDuplicates": true,
-  "showDuration": "300",
+  "showDuration": "3000",
   "hideDuration": "1000",
   "timeOut": "10000",
   "extendedTimeOut": "1000",

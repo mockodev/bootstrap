@@ -1,4 +1,5 @@
 
+
 // https://cors-anywhere.herokuapp.com/
 // https://checkip.amazonaws.com/
 // https://www.cloudflare.com/cdn-cgi/trace/
@@ -12,3 +13,4 @@ function getIPFromAmazon() {
   $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   })
+
