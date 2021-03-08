@@ -5,3 +5,136 @@
 }
 
 
+/* bootstrap style changes ? */
+
+
+/* header styles */
+
+
+/* select-meals styles */
+.main-select {
+    display: block;
+    height: 250px;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.main-select article {
+    font-size: 190%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+}
+
+.main-select-button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 200px;
+    height: 100px;
+    margin: 20px 30px;
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 170%;
+    box-shadow: gray;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.main-select-button-breakfast {
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/06/23/16/breakfast-1804436_960_720.jpg);
+    background-size: cover;
+}
+
+.main-select-button-lunch {
+    background-image: url(https://cdn.pixabay.com/photo/2018/07/14/21/30/club-sandwich-3538455_960_720.jpg);
+    background-size: cover;
+}
+
+.main-select-button-dinner {
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/03/14/31/dinner-1433494_960_720.jpg);
+    background-size: cover;
+}
+
+.main-select-button-dessert {
+    background-image: url(https://cdn.pixabay.com/photo/2018/05/01/18/21/eclair-3366430_960_720.jpg);
+    background-size: cover;
+}
+
+
+/* main styles */
+
+
+
+/* footer styles */
+.footer-str {
+    border: 1px solid red;
+    text-align: center;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.footer-str a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-social {
+    width: 400px;
+}
+
+.footer-social ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
+
+.footer-social-fb {
+    background-image: url();
+    background-size: cover;
+}
+
+.footer-social-yt {
+    background-image: url();
+    background-size: cover;
+}
+
+.footer-social-in {
+    background-image: url();
+    background-size: cover;
+}
+
+.footer-about {
+    width: 400px;
+}
+
+.footer-about-title {
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 1px;
+}
+
+.footer-about ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 15px;
+}
+
+.footer-about-daniel {
+    background-image: url(https://avatars.githubusercontent.com/u/3473243?s=460&v=4);
+    background-size: cover;
+}
+
+.footer-about-adam {
+    background-image: url(https://avatars.githubusercontent.com/u/78554322?s=460&u=1887ff53bf8577cf495f59839975d81cc52c1da4&v=4);
+    background-size: cover;
+
+}
+
+.footer-about-josh {
+    background-image: url(https://avatars.githubusercontent.com/u/75668069?s=460&u=4dbfc57f140d0626fe06f44462ae2e46c14782a1&v=4);
+    background-size: cover;
+
+}
+
