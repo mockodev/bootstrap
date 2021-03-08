@@ -41,7 +41,20 @@
 
     <!-- Adams header section -->
     <header>
+  <div class="topnav">
+      <a class="active" href="index.html">Maj's Cookbook</a>
 
+      <input type="text" onkeypress='checkEnterClick(event)' placeholder="Search for Recipe...">
+      <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">close window</span>
+        <div class="overlay-content">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search for Recipe again..." name="search">
+            <a>here comes a list of the searchresult of "Muffin" for example</a>
+          </form>
+        </div>
+      </div> 
+    </div>
     </header>
 
     <!-- select type of meal -->
