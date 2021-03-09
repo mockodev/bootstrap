@@ -1,11 +1,8 @@
 .footer-str {
-    border: 1px solid red;
-    text-align: center;
-    background-color: blue;
     display: flex;
-    justify-content: center;
+    margin: 0 auto;
     align-items: center;
-    height: 100px;
+    height: 140px;
 }
 
 .footer-str a {
@@ -15,59 +12,54 @@
 
 .footer-social {
     width: 400px;
+    text-align: center;
 }
 
 .footer-social ul li {
     display: inline-block;
     list-style: none;
-    padding: 15px;
+    height: 60px;
+    width: 60px;
+    margin: 0 10px;
 }
 
 .footer-social-fb {
-    background-image: url();
+    background-image: url(https://www.flaticon.com/svg/vstatic/svg/145/145802.svg?token=exp=1615308872~hmac=16b87572b4b716c8a8a0e6995c11fb77);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .footer-social-yt {
-    background-image: url();
+    background-image: url(https://www.flaticon.com/svg/vstatic/svg/733/733590.svg?token=exp=1615309126~hmac=d41e0a86c344730b43c0617b9409820e);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .footer-social-in {
-    background-image: url();
+    background-image: url(https://www.flaticon.com/svg/vstatic/svg/174/174855.svg?token=exp=1615308916~hmac=54adedd7ad109a2a88df9bb938af4bb1);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .footer-about {
     width: 400px;
+    text-align: center;
 }
 
 .footer-about-title {
     text-align: center;
     box-sizing: border-box;
-    padding-left: 1px;
 }
 
-.footer-about ul li {
+.footer-about-github {
+    background-image: url(https://www.flaticon.com/svg/vstatic/svg/733/733609.svg?token=exp=1615308547~hmac=dc274eb2c5cba43073df2fdf26d2903e);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 80px;
     display: inline-block;
     list-style: none;
+    width: 45px;
     padding: 15px;
-}
-
-.footer-about-daniel {
-    background-image: url(https://avatars.githubusercontent.com/u/3473243?s=460&v=4);
-    background-size: cover;
-}
-
-.footer-about-adam {
-    background-image: url(https://avatars.githubusercontent.com/u/78554322?s=460&u=1887ff53bf8577cf495f59839975d81cc52c1da4&v=4);
-    background-size: cover;
-
-}
-
-.footer-about-josh {
-    background-image: url(https://avatars.githubusercontent.com/u/75668069?s=460&u=4dbfc57f140d0626fe06f44462ae2e46c14782a1&v=4);
-    background-size: cover;
-
+    margin: 0 30px;
 }
 
