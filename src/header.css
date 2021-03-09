@@ -1,38 +1,4 @@
-/* Headerpart called nav and friends */
-.topnav {
-   
-   background-color: #969494;
-   ;
-  }  
-
-/* .topnav a {
-  float: left;
-  display: block;
-  color: rgb(78, 78, 78);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 1.8rem;
-}
-
-.topnav a.active {
-  background-color: #834444;
-  color: rgb(44, 44, 44);
-}
-
-.topnav input[type=text] {
-  float: right;
-  padding: 7px;
-  border: none;
-  margin: 12px 16px 8px 0px;
-  font-size: 17px;
-} */
-
-
-/* Headerpart end */
-
-
-/* search button under popular posts*/
+/* searchbar */
 .overlay {
   height: 100%;
   width: 100%;
@@ -42,7 +8,7 @@
   top: 0;
   left: 0;
   background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.8); /* see-through */
+  background-color: rgba(80, 64, 64, 0.9); /* see-through */
 }
 
 /* Searchbar Start: The content */
@@ -58,14 +24,14 @@
 /* Close button */
 .overlay .closebtn {
   position: absolute;
-  top: 40px;
-  right: 75px;
-  font-size: 20px;
+  top: 60px;
+  right: 95px;
+  font-size: 1.2rem;
   cursor: pointer;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .overlay .closebtn:hover {
-  color: #ccc;
+  color: rgb(131, 131, 131);
 }
 
 /* the search field */
@@ -80,5 +46,3 @@
   background: #f1f1f1;
 }
 /* Searchbar End*/
-
-
