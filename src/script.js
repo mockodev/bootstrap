@@ -40,5 +40,3 @@ function closeSearch() {
   setTimeout(function(){ document.getElementById("myOverlay").style.display = "none"; }, 500)
   
 }
-
-
