@@ -31,11 +31,14 @@ function ScrollHeight() {
 // open full screen search box
   function checkEnterClick(e){
     if(e.keyCode == 13){
-      document.getElementById("myOverlay").style.display = "block";
+      setTimeout(function(){ document.getElementById("myOverlay").style.display = "block"; }, 700)
     }
  }
 
 // close full screen search box
 function closeSearch() {
-  document.getElementById("myOverlay").style.display = "none";
+  setTimeout(function(){ document.getElementById("myOverlay").style.display = "none"; }, 500)
+  
 }
+
+
