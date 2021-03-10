@@ -1,10 +1,10 @@
 
-/* .footer-dark {
-    padding:50px 0;
+ .footer-dark {
+    padding:20px 0;
     color: black;
     background-color:antiquewhite;
   }
-  
+
   .footer-dark h3 {
     margin-top:0;
     margin-bottom:12px;
@@ -20,6 +20,7 @@
     margin-bottom:0;
   }
   
+
   .footer-dark ul a {
     color:inherit;
     text-decoration:none;
@@ -29,22 +30,9 @@
   .footer-dark ul a:hover {
     opacity:0.8;
   }
-  
-  @media (max-width:767px) {
-    .footer-dark .item:not(.social) {
-      text-align:center;
-      padding-bottom:20px;
-    }
-  }
-  
+
   .footer-dark .item.text {
     margin-bottom:36px;
-  }
-  
-  @media (max-width:767px) {
-    .footer-dark .item.text {
-      margin-bottom:0;
-    }
   }
   
   .footer-dark .item.text p {
@@ -55,14 +43,7 @@
   .footer-dark .item.social {
     text-align:center;
   }
-  
-  @media (max-width:991px) {
-    .footer-dark .item.social {
-      text-align:center;
-      margin-top:20px;
-    }
-  }
-  
+
   .footer-dark .item.social > a {
     font-size:20px;
     width:36px;
@@ -72,7 +53,7 @@
     text-align:center;
     border-radius:50%;
     box-shadow:0 0 0 1px rgba(255,255,255,0.4);
-    margin:0 8px;
+    margin:10px 8px;
     color:#fff;
     opacity:0.75;
   }
@@ -90,3 +71,24 @@
   }
   
   https://epicbootstrap.com/snippets/footer-dark */
+
+/*  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
