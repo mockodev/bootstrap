@@ -4,20 +4,7 @@
     margin: 0px;    
 } */
 
-
-/* bootstrap style changes ? */
-
-
-/* header styles */
-
-
 /* select-meals styles */
-.main-select-str {
-    display: flex;
-    width: 90%;
-    margin: 20px auto;
-}
-
 .main-select-article {
     text-align: center;
     font-size: 190%;
@@ -30,47 +17,60 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 200%;
+    font-size: 220%;
     font-family: 'Dancing Script', cursive;
+    transition: transform 1.5s;
+}
+
+#main-select:hover {
+    opacity: 0.5;
+
+}
+
+.main-select-str {
+    margin: 0 auto;
+
 }
 
 #main-select a {
     text-decoration: none;
-    padding: 30px 80px;
-    font-weight: bold;
+    padding: 30px 85px;
 }
 
 .main-select-bf {
-    background-image: url(https://cdn.pixabay.com/photo/2016/11/06/23/16/breakfast-1804436_960_720.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/09/15/30/breakfast-1246686_960_720.jpg);
     background-size: cover;
     height: 100px;
     margin: 0 10px;
+    border-radius: 10px;
 }
 
 .main-select-bf a {
-    color: rgb(11, 11, 73);
+    color: black;
 }
 
 .main-select-lc {
-    background-image: url(https://cdn.pixabay.com/photo/2018/07/14/21/30/club-sandwich-3538455_960_720.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2015/05/31/13/13/lunch-791697_960_720.jpg);
     background-size: cover;
     height: 100px;
     margin: 0 10px;
+    border-radius: 10px;
 }
 
 .main-select-lc a {
-    color: white;
+    color: black;
 }
 
 .main-select-dn {
-    background-image: url(https://cdn.pixabay.com/photo/2016/06/03/14/31/dinner-1433494_960_720.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/13/06/40/steak-597949_960_720.jpg);
     background-size: cover;
     height: 100px;
     margin: 0 10px;
+    border-radius: 10px;
 }
 
 .main-select-dn a {
-    color:royalblue;
+    color: black;
 }
 
 .main-select-ds {
@@ -78,15 +78,10 @@
     background-size: cover;
     height: 100px;
     margin: 0 10px;
+    border-radius: 10px;
 }
 
 .main-select-ds a {
-    color:royalblue;
+    color:black;
 }
 
-
-/* main styles */
-
-
-
-/* footer styles */
