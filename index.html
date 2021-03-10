@@ -47,24 +47,23 @@
     <header>
       <div class="container-fluid">
         <div class="navbar navbar-light bg-light">
-          <a class="navbar-brand" class="active" href="index.html">Maj's Cookbook</a>
-    
+          <img class="navbar-brand" src="./src/img/header/cookpicture.png" alt="Maj's Cookbook picture" href="index.html"></img>
+
           <form class="form-inline">
-            <input class="form-control mr-sm-2" type="text" onkeypress='checkEnterClick(event)'
-              placeholder="Search for Recipe...">
+            <input class="form-control mr-sm-2" type="text" onkeypress='checkEnterClick(event)' placeholder="Search for Recipe...">
             <div id="myOverlay" class="overlay">
               <span class="closebtn" onclick="closeSearch()" title="Close Overlay">close window</span>
               <div class="overlay-content">
                 <form action="/action_page.php">
                   <input class="form-control mr-sm-2" type="text" placeholder="Search for Recipe again..." name="search">
-                  <a class="navbar-brand">...youre searchresult is:</a>
+                  <p class="searchtext">...your'e search result:</p>
     
                   <ul class="list-group">
-                    <li class="list-group-item list-group-item-secondary">The Recipe is name1</li>
-                    <li class="list-group-item">The Recipe is name2</li>
-                    <li class="list-group-item list-group-item-secondary">The Recipe is name3</li>
-                    <li class="list-group-item">The Recipe is name4</li>
-                    <li class="list-group-item list-group-item-secondary">The Recipe is name5</li>
+                    <li class="list-group-item list-group-item-secondary"><a href="./recipe.html">The Recipe is name1</a></li>
+                    <li class="list-group-item"><a href="./recipe.html">The Recipe is name2</a></li>
+                    <li class="list-group-item list-group-item-secondary"><a href="./recipe.html">The Recipe is name3</a></li>
+                    <li class="list-group-item"><a href="./recipe.html">The Recipe is name4</a></li>
+                    <li class="list-group-item list-group-item-secondary"><a href="./recipe.html">The Recipe is name5</a></li>
                   </ul>
     
                 </form>
