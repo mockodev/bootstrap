@@ -34,10 +34,7 @@
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 
-    <script src="./src/toastr.js"></script>
-    <script src="./src/script.js"></script>
-
-    <title>Group 3 Cookbook</title>
+    <title>May's Cookbook</title>
   </head>
   <body>
     
@@ -208,11 +205,11 @@
                 </ul>
               </div>
               <div class="col">
-                <h3>Maj's Cookbook</h3>
-                <p>This is the Maj's - our grand, grand, grandmother - recipe. <br><em>If you like, subscribe below!</em></p>
+                <h3>May's Cookbook</h3>
+                <p>This is the May's - our grand, grand, grandmother - recipe. <br><em>If you like, subscribe below!</em></p>
               </div>
               <div class="col">
-                <p class="copyright">Maj's Cookbook © 2021</p>
+                <p class="copyright">May's Cookbook © 2021</p>
               </div>
               <div class="col item social">
                 <a href="https://de-de.facebook.com/"><img src="https://www.flaticon.com/svg/vstatic/svg/1384/1384005.svg?token=exp=1615377847~hmac=b2a6ef2c0b7b0f58958bbe746266a023" width="40"></a>
@@ -221,12 +218,11 @@
                 <a href="https://www.instagram.com/"><img src="https://www.flaticon.com/svg/vstatic/svg/1384/1384015.svg?token=exp=1615378070~hmac=7ecad5a3dbb32f577036f488267f885a" width="40"></a>
               </div>
               <div class="col">
-                <form class="form-inline">
+                <form id="subscribe" class="form-inline">
                   <div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text" id="basic-addon1">@</span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+
+                    <input id="userEmail" name="subscrForm" type="text" class="form-control" placeholder="Email Address" aria-label="Email Address" aria-describedby="basic-addon1">
+                    <button id="subscrSubmit" type="submit">Subscribe</button>
                   </div>
                 </form>
               </div>
@@ -236,6 +232,7 @@
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-
+  <script src="./src/toastr.js"></script>
+  <script src="./src/script.js"></script>
   </body>
 </html>

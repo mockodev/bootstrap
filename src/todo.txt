@@ -4,3 +4,18 @@ use free pictures pexels https://www.pexels.com/de-de/
 a landing page, 4 subpages for the different type of meals, 1 recipe page
 
 - dont use full width with high screen resolutions (looks unprofessional)
+- background image
+
+JavaScript challenges for the Group project.
+
+- DOM manipulation, array functions ......
+- Social media share on facebook, instagram......
+- bootstrap modal https://getbootstrap.com/docs/4.0/components/modal/#examples
+- same share functionality on recipe page
+- redirects
+- Toastr notification with additional action (close old Toast an open a new one)
+- implement information from other sites / APIs (Weather....)
+- Time dependend greeting (Good morning, good evening, good night.....)
+- 
+
+
