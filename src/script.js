@@ -29,17 +29,16 @@ function ScrollHeight() {
  // })
 
 
-// Ask Adam
-// open full screen search box
+// open full screen search box -Adam
   function checkEnterClick(e){
     if(e.keyCode == 13){
-      setTimeout(function(){ document.getElementById("myOverlay").style.display = "block"; }, 700)
+      setTimeout(function(){ document.getElementById("myOverlay").style.display = "block"; }, 200)
     }
  }
 
-// close full screen search box
+// close full screen search box -Adam
 function closeSearch() {
-  setTimeout(function(){ document.getElementById("myOverlay").style.display = "none"; }, 500)
+  setTimeout(function(){ document.getElementById("myOverlay").style.display = "none"; }, 300)
   
 }
 
