@@ -24,9 +24,9 @@ function ScrollHeight() {
 
 
 // turn tooltips on
-  $(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-  })
+ // $(function () {
+ //   $('[data-toggle="tooltip"]').tooltip()
+ // })
 
 
 // Ask Adam
