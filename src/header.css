@@ -64,6 +64,7 @@ img {
 
 /* shake it start*/
 .navbar-brand,.searchtext, img:not(.backArrow) :hover{
+
   /* Start the shake animation */
   animation: shake 0.6s;
 
