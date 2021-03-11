@@ -1,6 +1,5 @@
+toastr.success("<button type='button' class='btn'>Yes</button>", "Share recipe ?");
 
-
-// script for recipe
 
 // First call
 ScrollHeight();
