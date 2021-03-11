@@ -104,3 +104,14 @@ main p {
   color: black;
   font-size: 250%;
 }
+
+.container {
+  margin-top: 35px;
+  font-size: 1.4em;
+  font-family: "Dancing Script", cursive;
+  line-height: 2em;
+  color: black;
+}
+td {
+  padding-left: 30px;
+}
