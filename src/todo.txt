@@ -19,3 +19,12 @@ JavaScript challenges for the Group project.
 - 
 
 
+background, white, opacity.
+What should i cook for you, bigger
+fix select menue
+horizontal gab smaller, add vertical gap, edit buttons on a line
+
+
+
+
+
