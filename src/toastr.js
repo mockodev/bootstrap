@@ -20,8 +20,6 @@ toastr.options = {
 
 
 // for Subscription button
-toastr["success"]("Thanks for your subscribing.", "subscription")
-
 toastr.options = {
   "closeButton": true,
   "debug": false,
