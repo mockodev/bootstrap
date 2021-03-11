@@ -1,14 +1,18 @@
 
 
-
-
-additionall class in the div
-
 @media (min-width: 768px) {
     .container-fluid {
       width: 728px;
     }
 }
+
+/* additionall class in the div
+
+@media (min-width: 768px) {
+    .container-fluid {
+      width: 728px;
+    }
+} */
 
 
 /* 
