@@ -78,24 +78,23 @@
     <!-- when hover, transparency changed, larger -->
 
     <section>
-      <div class="main-select-article">
-        <article>What should I cook  for you ?</article>
+      <div class="select-article">
+        <article>What should I cook for you?</article>
       </div>
       <div class="container-fluid">
-        
-        <div class="row row-cols-1 row-cols-md-2 main-select-str">
-          <div class="col ">
-          <div id="main-select" class="col main-select-bf"><a href="/breakfast.html">Breakfast</a></div>
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col">
+            <div id="select" class="col select-bf" onclick="window.location.href='breakfast.html'">Breakfast</div>
+          </div>
+          <div class="col">
+            <div id="select" class="col select-lc" onclick="window.location.href='lunch.html'">Lunch</div>
         </div>
-          <div class="col ">
-          <div id="main-select" class="col main-select-lc"><a href="/lunch.html">Lunch</a></div>
+          <div class="col">
+            <div id="select" class="col select-dn" onclick="window.location.href='breakfast.html'">Dinner</div>
         </div>
-          <div class="col ">
-          <div id="main-select" class="col main-select-dn"><a href="/dinner.html">Dinner</a></div>
-        </div>
-          <div class="col ">
-          <div id="main-select" class="col main-select-ds"><a href="/dessert.html">Dessert</a></div>
-        </div>
+          <div class="col">
+            <div id="select" class="col select-ds" onclick="window.location.href='breakfast.html'">Dessert</div>
+          </div>
         </div>
       </div>
     </section>
@@ -194,46 +193,34 @@
 
     <!-- footer section -->
     
-      <footer>
-        <div class="container-fluid footer-dark">
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 item">
+      <footer class="container-fluid">
+        <div class="footer-dark">
+          <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 text-center">
             <div class="col">
-              <h3>Home</h3>
-                <ul>
+              <h4>Home</h4>
+                <ul class="footer-list">
                   <li><a href="/breakfast.html">Breakfast</a></li>
                   <li><a href="/lunch.html">Lunch</a></li>
                   <li><a href="/dinner.html">Dinner</a></li>
                   <li><a href="/dessert.html">Dessert</a></li>
                 </ul>
               </div>
-
               <div class="col">
-               <h3>About @Github</h3>
-                <ul>
-                  <li><a href="https://github.com/Adamgraph">Daniel</a></li>
-                  <li><a href="https://github.com/mockodev">Adam</a></li>
-                  <li><a href="https://github.com/Joshchae">Josh</a></li>
-                </ul>
+                <h4>Social</h4>
+                  <div class="row-cols-5">
+                    <img class="footer-social" src="/src/img/footer/facebook.png" onclick="window.location.href='https://de-de.facebook.com'">
+                    <img class="footer-social" src="/src/img/footer/twitter.png" onclick="window.location.href='https://twitter.com/twitter'">
+                    <img class="footer-social" src="/src/img/footer/youtube.png" onclick="window.location.href='https://www.youtube.com'">
+                    <img class="footer-social" src="src/img/footer/instagram.png" onclick="window.location.href='https://www.instagram.com'">
+                  </div>
               </div>
               <div class="col">
-                <h3>May's Cookbook</h3>
-                <p>This is the May's - our grand, grand, grandmother - recipe. <br><em>If you like, subscribe below!</em></p>
-              </div>
-              <div class="col">
-                <p class="copyright">May's Cookbook © 2021</p>
-              </div>
-              <div class="col item social">
-                <a href="https://de-de.facebook.com/"><img src="https://www.flaticon.com/svg/vstatic/svg/1384/1384005.svg?token=exp=1615377847~hmac=b2a6ef2c0b7b0f58958bbe746266a023" width="40"></a>
-                <a href="https://twitter.com/twitter"><img src="https://www.flaticon.com/svg/vstatic/svg/1384/1384017.svg?token=exp=1615377869~hmac=7d4b102bb1701bd0f21ee68a1136f3a9" width="40"></a>
-                <a href="https://www.youtube.com/"><img src="https://www.flaticon.com/svg/vstatic/svg/1384/1384028.svg?token=exp=1615378048~hmac=a70b0297a54f84b1d92327e562633f9d" width="40"></a>
-                <a href="https://www.instagram.com/"><img src="https://www.flaticon.com/svg/vstatic/svg/1384/1384015.svg?token=exp=1615378070~hmac=7ecad5a3dbb32f577036f488267f885a" width="40"></a>
-              </div>
-              <div class="col">
+                <h4>May's Cookbook</h4>
+                <p>This is May's recipe. <br><em>If you like, subscribe below!</em></p>
                 <form id="subscribe" class="form-inline">
                   <div class="input-group">
-
-                    <input id="userEmail" name="subscrForm" type="text" class="form-control" placeholder="Email Address" aria-label="Email Address" aria-describedby="basic-addon1">
-                    <button id="subscrSubmit" type="submit">Subscribe</button>
+                    <input id="userEmail" class="form-control" type="text" placeholder="Email">
+                    <button id="subscrSubmit" type="submit">Submit</button>
                   </div>
                 </form>
               </div>
