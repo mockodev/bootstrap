@@ -5,22 +5,24 @@
 } */
 
 /* select-meals styles */
-.main-select-article {
+
+
+.main-select-article article {
     text-align: center;
-    font-size: 190%;
+    font-size: 2rem;
     font-family: 'Dancing Script', cursive;
     margin: 10px;
     padding: 20px;
 }
 
-#main-select {
+/* #main-select {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 220%;
     font-family: 'Dancing Script', cursive;
     transition: transform 1.5s;
-}
+} */
 
 #main-select:hover {
     opacity: 0.5;
@@ -84,4 +86,4 @@
 .main-select-ds a {
     color:black;
 }
-
+ 
