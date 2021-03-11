@@ -1,4 +1,4 @@
-toastr.success("<button type='button' class='btn'>Yes</button>", "Share recipe ?");
+// toastr.success("<button type='button' class='btn'>Yes</button>", "Share recipe ?");
 
 
 
