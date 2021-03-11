@@ -1,8 +1,5 @@
 // toastr.success("<button type='button' class='btn'>Yes</button>", "Share recipe ?");
 
-
-
-
 // First call
 ScrollHeight();
 
@@ -18,9 +15,12 @@ function ScrollHeight() {
 
   // SVG feTurbulence can modify all others elements, that's why it's in absolute
   // so for a better effect, absolute height is defined by his content.
-  // content.style.height = container.offsetHeight + 'px'; // >> We need to fix it out, or comment out. <<
+  content.style.height = container.offsetHeight + 'px';
 }
 
+
+
+  
 
 
 // turn tooltips on
@@ -56,4 +56,4 @@ const subscrFormSubmit = (event) => {
     : toastr["success"]("Thanks for your subscribing.", "Success")
 };
 
-subscrForm.addEventListener("submit", subscrFormSubmit);
+//subscrForm.addEventListener("submit", subscrFormSubmit);
