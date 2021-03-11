@@ -1,6 +1,4 @@
-
-
-// script for recipe
+// toastr.success("<button type='button' class='btn'>Yes</button>", "Share recipe ?");
 
 // First call
 ScrollHeight();
@@ -22,10 +20,14 @@ function ScrollHeight() {
 
 
 
+  
+
+
 // turn tooltips on
-  $(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-  })
+ // $(function () {
+ //   $('[data-toggle="tooltip"]').tooltip()
+ // })
+
 
 // Ask Adam
 // open full screen search box
@@ -40,3 +42,18 @@ function closeSearch() {
   setTimeout(function(){ document.getElementById("myOverlay").style.display = "none"; }, 500)
   
 }
+
+
+
+// footer, subscription button - Josh
+const subscrForm = document.getElementById("subscribe");
+const subscrInput = document.getElementById("userEmail");
+
+const subscrFormSubmit = (event) => {
+  event.preventDefault();
+  !subscrInput.value
+    ? alert("empty! please fill out the form")
+    : toastr["success"]("Thanks for your subscribing.", "Success")
+};
+
+//subscrForm.addEventListener("submit", subscrFormSubmit);
