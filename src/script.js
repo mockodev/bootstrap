@@ -52,8 +52,8 @@ const subscrInput = document.getElementById("userEmail");
 const subscrFormSubmit = (event) => {
   event.preventDefault();
   !subscrInput.value
-    ? alert("empty! please fill out the form")
-    : toastr["success"]("Thanks for your subscribing.", "Success")
+    ? alert("Empty! Please fill out the form")
+    : alert("Thanks for your subscribing!")
 };
 
 subscrForm.addEventListener("submit", subscrFormSubmit);
