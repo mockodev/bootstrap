@@ -1,5 +1,9 @@
 
 
+
+
+/*additionall class in the div*/
+
 @media (min-width: 768px) {
     .container-fluid {
       width: 728px;
@@ -7,6 +11,9 @@
 }
 
 
-
+/* 
+body {
+    background-image: url(https://c.stocksy.com/a/JDR400/z9/1057925.jpg?1578973215);
+} */
 
 
