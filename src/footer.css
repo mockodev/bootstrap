@@ -15,6 +15,7 @@
   height: 30px; /* Adam Css*/
   margin-bottom: 15px;
   cursor:pointer;
+  padding-left: 0;
 }
 
 .footer-dark {
