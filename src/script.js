@@ -1,4 +1,11 @@
-// toastr.success("<button type='button' class='btn'>Yes</button>", "Share recipe ?");
+function shareRecipe(){
+   toastr.success("<button type='button' onclick='doShare()' class='btn btn-sm btn-outline-primary'>Yes</button><button type='button' onclick='dontShare()' class='btn btn-sm btn-outline-primary'>No</button>", "Share recipe ?");}
+
+   function dontShare(){
+    toastr.success("Maybee next time...", "Sorry to hear that !");}
+
+    function doShare(){
+      toastr.success("Have a good day.", "Thanks for sharing !");}
 
 // // First call
 // ScrollHeight();
