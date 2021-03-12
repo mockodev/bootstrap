@@ -35,6 +35,7 @@ main .container-fluid img:hover {
 
 div.card-body {
     height: 200px;
+  
 
 }
 
@@ -43,6 +44,10 @@ div.card-body {
 .card-text {
     font-size: 1em;
     font-family: 'Dancing Script', cursive;
+}
+
+.btn-group {
+    
 }
 
 
