@@ -20,7 +20,8 @@ JavaScript challenges for the Group project.
 
 
 
-horizontal gap smaller, add vertical gap, edit buttons on a line
+on mouse hover show Title
+change edit button to share button and put toast notification on it
 
 
 
