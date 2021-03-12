@@ -15,3 +15,16 @@ function ScrollHeight() {
   // so for a better effect, absolute height is defined by his content.
   content.style.height = container.offsetHeight + 'px';
 }
+
+
+// share toast
+function recipeShareFunction() {
+  // Get the recipeShareSocial DIV
+  var x = document.getElementById("recipeShareSocial");
+
+  // Add the "show" class to DIV
+  x.className = "show";
+
+  // After 3 seconds, remove the show class from DIV
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 5000);
+}
