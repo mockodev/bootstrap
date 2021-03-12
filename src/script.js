@@ -57,4 +57,4 @@ const subscrFormSubmit = (event) => {
     : alert("Thanks for your subscribing!")
 };
 
-//subscrForm.addEventListener("submit", subscrFormSubmit);
+subscrForm.addEventListener("submit", subscrFormSubmit);
