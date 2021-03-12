@@ -65,7 +65,7 @@ main p {
 }
 
 .inkTitle {
-  font-size: 3em;
+  font-size: 5em;
   font-family: "Dancing Script", cursive;
   text-align: center;
   line-height: 3em;
@@ -79,7 +79,7 @@ main p {
   width: 50%;
   height: 100%;
   float: left;
-  padding-right: 10px;
+  padding-right: 3%;
  
 }
 
