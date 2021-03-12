@@ -29,6 +29,14 @@ main {
   height: auto;
 }
 
+.link {
+text-decoration: none;
+color: black;
+font-size: 2.25em;
+}
+
+
+
 #parchment {
   position: absolute;
   display: flex;
@@ -106,12 +114,14 @@ main p {
 }
 
 .container {
+  
   margin-top: 35px;
-  font-size: 1.4em;
+  font-size: 2.25em;
   font-family: "Dancing Script", cursive;
   line-height: 2em;
   color: black;
 }
+
 td {
   padding-left: 30px;
 }
