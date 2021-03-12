@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+.footer-nav {
+  border-radius: 20px 20px 0px 0px ;
+}
+
 .footer-list {
   list-style: none;
   padding-inline-start: 0;
@@ -19,11 +23,10 @@
 .footer-dark {
   padding-top: 10px;
   color: black;
-  background-color:antiquewhite;
 }
 
 .footer-dark ul a {
-  color:inherit;
+  color: black;
   text-decoration:none;
   opacity:0.6;
 }
