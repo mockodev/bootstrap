@@ -20,7 +20,7 @@ JavaScript challenges for the Group project.
 
 
 
-horizontal gab smaller, add vertical gap, edit buttons on a line
+horizontal gap smaller, add vertical gap, edit buttons on a line
 
 
 
