@@ -31,10 +31,14 @@ main .container-fluid img:hover {
     
 }
 
+
+
 div.card-body {
     height: 200px;
 
 }
+
+
 
 .card-text {
     font-size: 1em;
