@@ -2,6 +2,7 @@
 .footer-nav {
   border-radius: 20px 20px 0px 0px;
   padding-top: 15px;
+  padding-right: 46px;/* Adam Css*/
 }
 
 .footer-list {
@@ -11,8 +12,7 @@
 }
 
 .footer-social {
-  width: 40px;
-  height: 40px;
+  height: 30px; /* Adam Css*/
   margin-bottom: 15px;
   cursor:pointer;
 }
@@ -31,6 +31,20 @@
 .footer-dark ul a:hover {
   opacity:0.8;
 }
+
+/* Adam Css*/
+@media (max-width:575px) {
+  .footer-nav {
+    padding-right: 0px;
+  }
+}
+
+@media (max-width:575px) {
+  #subscribe {
+    margin: 40px;
+  }
+}
+/* Adam Css End*/
 
 /*
 .footer-dark h3 {

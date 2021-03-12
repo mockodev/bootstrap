@@ -1,6 +1,8 @@
- 
+.card-group {
+	margin-top: 55px;/* Adam Css*/
+}
 
-  main .container-fluid h2 {
+main .container-fluid h2 {
     margin: 20px 20px;
     text-align: center;
     font-size: 3em;
