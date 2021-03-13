@@ -1,0 +1,21 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+
+# testing
+/maps.html
+/maps.js
+/maps.css
+/todo.txt
+# production
+/maps.html
+/maps.js
+/maps.css
+/todo.txt
+# misc
+/maps.html
+/maps.js
+/maps.css
+/todo.txt
