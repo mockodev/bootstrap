@@ -1,41 +1,40 @@
+// Toast notification
+
 function shareRecipe(){
-   toastr.success("<button type='button' onclick='doShare()' class='btn btn-sm btn-outline-primary'>Yes</button><button type='button' onclick='dontShare()' class='btn btn-sm btn-outline-primary'>No</button>", "Share recipe ?");}
+   toastr.info("<button type='button' onclick='doShare()' class='btn btn-sm btn-outline-primary'>Yes</button><button type='button' onclick='dontShare()' class='btn btn-sm btn-outline-primary'>No</button>", "Share recipe ?");}
 
    function dontShare(){
-    toastr.success("Maybee next time...", "Sorry to hear that !");}
+    toastr.error("Maybee next time...", "Sorry to hear that !");}
 
     function doShare(){
       toastr.success("Have a good day.", "Thanks for sharing !");}
 
-// // First call
-// ScrollHeight();
+// Enable tooltips 
 
-// // Redraw when viewport is modified
-// window.addEventListener('resize', function(event){
-//   ScrollHeight();
-// });
+ $(function () {
+   $('[data-toggle="tooltip"]').tooltip()
+ }
+ )
+
+// Enable popovers
+
+ $(function () {
+  $('.example-popover').popover({
+    container: 'body'
+  })
+})
+ 
+
+// get datetime and render greeting
+ function greeting()  {
+  const hour = new Date().getHours()
+if (hour > 22 && hour < 6) { 
+    
+}
+ }
 
 
-// function ScrollHeight() {
-//   var content = document.querySelector('#parchment');
-//   var container = document.querySelector('#contain');
 
-//   // SVG feTurbulence can modify all others elements, that's why it's in absolute
-//   // so for a better effect, absolute height is defined by his content.
-//   content.style.height = container.offsetHeight + 'px';
-// }
-
-
-
-
-
-  
-
-
-// turn tooltips on
- // $(function () {
- //   $('[data-toggle="tooltip"]').tooltip()
- // })
 
 
 // open full screen search box -Adam
