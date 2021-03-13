@@ -6,16 +6,16 @@
 
 # testing
 /maps.html
-/maps.js
-/maps.css
+/src/maps.js
+/src/maps.css
 /todo.txt
 # production
 /maps.html
-/maps.js
-/maps.css
+/src/maps.js
+/src/maps.css
 /todo.txt
 # misc
 /maps.html
-/maps.js
-/maps.css
+/src/maps.js
+/src/maps.css
 /todo.txt
